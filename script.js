@@ -29,11 +29,14 @@ import { decompress } from "./compress.js";
     try {
       const target = decompress(payload, alphabet);
 //      window.location.href = target;
-      alert(target);
+      //alert(target);
+      decoded.innerText = target;
       return;
     } catch (e) {
 //      console.warn(`Redirect failed. Could not decode input.`);
-      alert("couldnt decode");
+      decoded.innerText = "Couldn't decode";
+      decoded.classList.remove("decoded");
+      decoded.classList.add("error");
       console.error(e);
     }
   }

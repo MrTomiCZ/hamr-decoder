@@ -1,0 +1,15 @@
+body {
+    padding: 50%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: olive;
+    /*color:*/
+}
+
+.decoded {
+    color: chocolate;
+}
+
+.error {
+    color: red;
+}
