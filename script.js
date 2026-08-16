@@ -1,3 +1,4 @@
+alert("SKRIPT SE NACET");
 import {
   outputAlphabetASCII,
   outputAlphabetQR,
