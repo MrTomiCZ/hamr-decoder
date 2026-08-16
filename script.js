@@ -1,4 +1,4 @@
-alert("SKRIPT SE NACET");
+//alert("SKRIPT SE NACET");
 import {
   outputAlphabetASCII,
   outputAlphabetQR,
